@@ -1,0 +1,67 @@
+# Dependencies
+/vendor/
+/node_modules/
+
+# Environment files
+.env
+.env.local
+.env.*.local
+
+# IDE files
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# OS files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Logs
+*.log
+/logs/
+error.log
+access.log
+
+# Temporary files
+*.tmp
+*.temp
+*.swp
+*.swo
+*~
+
+# Uploads
+/uploads/*
+!/uploads/.gitkeep
+
+# Cache
+/cache/
+*.cache
+
+# Compiled files
+*.compiled
+
+# Database backups
+*.sql.backup
+*.sql.gz
+backup/
+
+# Config (if contains sensitive data)
+# config/config.php
+
+# Session files
+/sessions/
+
+# Build files
+/build/
+/dist/
+
+# Testing
+/coverage/
+phpunit.xml
+
+# Package managers
+composer.lock
+package-lock.json
+yarn.lock

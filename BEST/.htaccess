@@ -1,0 +1,11 @@
+RewriteEngine On
+RewriteCond %{REQUEST_URI} !^/BEST/assets/
+RewriteCond %{REQUEST_URI} !^/BEST/views/
+RewriteCond %{REQUEST_URI} !^/BEST/controllers/
+RewriteCond %{REQUEST_URI} !^/BEST/models/
+RewriteCond %{REQUEST_URI} !^/BEST/config/
+RewriteCond %{REQUEST_URI} !^/BEST/database/
+RewriteCond %{REQUEST_URI} !^/BEST/docs/
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule ^(.*)$ index.php [QSA,L]
